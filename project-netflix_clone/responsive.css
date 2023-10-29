@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+    .partone {
+        height: 115vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .ptworight img,
+    .pthreeleft img,
+    .pfourright img,
+    .pfiveleft img {
+        width: 30vw;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .partone {
+        height: 125vh;
+    }
+
+    .ponelogin input,
+    .ponelogin a {
+        width: 10em;
+    }
+
+    .partsix {
+        height: 160vh;
+    }
+
+    .psevencontent {
+        flex-wrap: wrap;
+        text-align: center;
+        width: 40vw;
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .partsix {
+        height: 170vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    
+    .partone {
+        height: 160vh;
+    }
+
+    .ponemidcontent h1{
+        font-size: 2em;
+    }
+
+    .ponelogin input,
+    .ponelogin a {
+        width: 5em;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parttwo,
+    .partthree,
+    .partfour,
+    .partfive {
+        height: 100vh;
+    }
+
+    /* h1 {
+        font-size: 2em;
+    } */
+    .pfourleft h1,
+    .ptwoleft h1,
+    .pthreeright h1,
+    .pfiveright h1 {
+        font-size: 2em;
+    }
+
+    .ptwocontent,
+    .pfourcontent {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .pthreecontent,
+    .pfivecontent {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+/* @media screen and (max-width:350px) {
+    .partone{
+        min-height: 180vh;
+        
+    }
+} */
